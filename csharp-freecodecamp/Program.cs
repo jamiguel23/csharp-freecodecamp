@@ -6,11 +6,18 @@ namespace Csharp
     class Program
     {
         static void Main(string[] args)
-        {   
-            Console.WriteLine("   /|");
-            Console.WriteLine("  / |");
-            Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+        {
+
+            string words = "lets go";
+            Console.WriteLine(words.Contains("6")); //should be false
+            Console.WriteLine(words[3]); // s
+            Console.WriteLine(words.IndexOf(" ")); // 4
+            Console.WriteLine(words.Substring(3)); // s go
+            Console.WriteLine(words.Substring(3, 3)); // s go
+
+
+
+
 
             Console.ReadLine();
         }
