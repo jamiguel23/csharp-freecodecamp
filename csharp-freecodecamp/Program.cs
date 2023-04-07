@@ -6,10 +6,9 @@ namespace Csharp
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine(GetDay(100));
 
-            Console.ReadLine();
+
+           
         }
 
         static string GetDay(int dayNum)
