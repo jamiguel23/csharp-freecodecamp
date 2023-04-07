@@ -10,8 +10,9 @@ namespace Csharp
             Console.WriteLine("   /|");
             Console.WriteLine("  / |");
             Console.WriteLine(" /  |");
-            Console.WriteLine("/___|");
+            Console.WriteLine("/|");
 
+            Console.Write("LETS GO");
             Console.ReadLine();
         }
     }
