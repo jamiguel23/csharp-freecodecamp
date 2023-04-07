@@ -8,11 +8,11 @@ namespace Csharp
         static void Main(string[] args) {
 
 
-            int index = 1;
+            int index = 10;
             while (index <= 5)
             {
                 Console.WriteLine(index);
-                index++;
+                index--;
             }
             Console.ReadLine();
            
