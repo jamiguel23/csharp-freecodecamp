@@ -8,7 +8,7 @@ namespace Csharp
         static void Main(string[] args) {
 
 
-            int index = 10;
+            int index = 9;
             while (index <= 5)
             {
                 Console.WriteLine(index);
