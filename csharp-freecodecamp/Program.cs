@@ -5,9 +5,11 @@ namespace Csharp
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) { 
 
+            Console.WriteLine(GetDay(0));
 
+            Console.ReadLine();
            
         }
 
